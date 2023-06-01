@@ -23,4 +23,5 @@ try:
 
     print('Download complete!')
 
-except (VideoUnavailable, PytubeError) as e
+except (VideoUnavailable, PytubeError) as e:
+    print('Error: 

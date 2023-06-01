@@ -5,4 +5,4 @@ from pytube.exceptions import *
 video_url = input('Enter the YouTube video url/link: ')
 
 # Resolution preference for download (e.g., "1080p", "720p", "480p", "360p", etc.)
-p
+preferred_resolution 

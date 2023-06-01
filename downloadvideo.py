@@ -9,4 +9,6 @@ preferred_resolution = '1080p'
 
 try:
     # Create a YouTube object
-    yt = YouT
+    yt = YouTube(video_url)
+
+    

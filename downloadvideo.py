@@ -25,3 +25,8 @@ except (VideoUnavailable, PytubeError) as e:
     print('Error: Failed to download the YouTube video.')
     print(e)
 
+#Find more cool stuffs:~
+##MY SOCIALS:
+###GITHUB PROFILE: https://github.com/mccharliesins
+###INSTAGRAM: https://instagram.com/itsmccharliesins
+###LINKEDIN: https://www.linkedin.com/in/mccharliesins/

@@ -16,4 +16,4 @@ try:
 
     # If the preferred resolution is not available, get the highest available quality
     if not stream:
- 
+        stream = yt.

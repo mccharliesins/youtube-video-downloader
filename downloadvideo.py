@@ -15,3 +15,5 @@ try:
     stream = yt.streams.filter(progressive=True, file_extension='mp4', resolution=preferred_resolution).first()
 
     # If the preferred resolution is not available, get the highest available quality
+    if not stream:
+ 

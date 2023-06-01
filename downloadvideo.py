@@ -2,4 +2,6 @@ from pytube import YouTube
 from pytube.exceptions import *
 
 # URL of the YouTube video you want to download
-video_url = input('Enter the YouTube video
+video_url = input('Enter the YouTube video url/link: ')
+
+# Res

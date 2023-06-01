@@ -19,9 +19,9 @@ try:
 
     # Download the video
     stream.download()
-
-    print('Download complete!')
+    print('Download completed!')
 
 except (VideoUnavailable, PytubeError) as e:
     print('Error: Failed to download the YouTube video.')
     print(e)
+

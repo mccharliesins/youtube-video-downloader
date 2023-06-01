@@ -11,4 +11,5 @@ try:
     # Create a YouTube object
     yt = YouTube(video_url)
 
-    # Get the best quality stream for the pr
+    # Get the best quality stream for the preferred resolution
+ 

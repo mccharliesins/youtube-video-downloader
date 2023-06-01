@@ -16,4 +16,6 @@ try:
 
     # If the preferred resolution is not available, get the highest available quality
     if not stream:
-        stream = yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution').de
+        stream = yt.streams.filter(progressive=True, file_extension='mp4').order_by('resolution').desc().first()
+
+    #

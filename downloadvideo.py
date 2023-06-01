@@ -24,4 +24,5 @@ try:
     print('Download complete!')
 
 except (VideoUnavailable, PytubeError) as e:
-    print('Error: Failed to download t
+    print('Error: Failed to download the YouTube video.')
+    print(e)
